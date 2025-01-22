@@ -906,3 +906,15 @@ footer p a:hover{
         line-height: 16px;
     }
 }
+
+/* Responsive intermédiaire */
+
+@media screen and (max-width:500px) {
+    #bienvenue div div span{
+        border-top: 1px solid var(--black);
+    }
+    
+    #bienvenue div div p{
+        color: var(--black);
+    }
+}
